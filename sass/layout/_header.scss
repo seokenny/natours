@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: top;
     /**Top left, top right, bottom right, bottom left**/
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     position:relative;
 
