@@ -13,6 +13,7 @@
         left: 0;
         width: 100%;
         //hides the back part of the element
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
