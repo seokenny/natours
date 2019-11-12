@@ -33,6 +33,11 @@
     &__left {
         width: 33.3333333%;
         display: table-cell;
+
+        @include respond(tab-land) {
+            width: 100%;
+            display: block;
+        }
     }
 
     &__right {
@@ -40,11 +45,21 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-land) {
+            width: 100%;
+            display: block;
+        }
     }
 
     &__img {
         display: block;
         width: 100%;
+
+        @include respond(tab-land) {
+            width: 50%;
+            display: inline-block;
+        }
     }
 
     &__text {
